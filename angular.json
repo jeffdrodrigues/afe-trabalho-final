@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "afe-trabalho-final"
+    }
+  },
+  "defaultProject": "afe-trabalho-final",
+  "cli": {
+    "analytics": "6227df6e-02a2-41f9-a8f6-0706013d3e9a"
+  }
 }
