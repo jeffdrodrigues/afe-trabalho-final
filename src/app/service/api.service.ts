@@ -8,7 +8,8 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
+  // tslint:disable-next-line: typedef
   getCovidInfo(){
     return this.http.get(this.apiUrl);
-  }  
+  }
 }
