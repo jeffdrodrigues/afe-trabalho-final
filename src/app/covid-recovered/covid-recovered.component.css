@@ -1,13 +1,13 @@
 .card__title{
-    padding: 15px;
+    padding: 30px;
     text-align: center;
-    width: 320px;
+    width: 100%;
 }
 
 .card__title--green{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #4CAF50;
-    color: white;
-  }
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
