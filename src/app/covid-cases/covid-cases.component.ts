@@ -10,12 +10,10 @@ export class CovidCasesComponent implements OnInit {
   covidInfo: any;
   constructor(private apiService: ApiService) {}
 
-  // tslint:disable-next-line: typedef
   ngOnInit(){
     this.getCovidInfo();
   }
 
-  // tslint:disable-next-line: typedef
   getCovidInfo(){
     this.apiService.getCovidInfo().subscribe(dados => this.covidInfo = dados);
   }
